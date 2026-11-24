@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6c94dd4c19312240817d1d9adc28902, type: 3}
+  m_Name: Harihara
+  m_EditorClassIdentifier: Assembly-CSharp::ARMuseum.Exhibits.ExhibitData
+  title: HARIHARA
+  selectorLabel: HARIHARA
+  subtitle: "Sandstone Relief \xB7 Shaivism and Vaishnavism"
+  category: "Indian Heritage \u2022 Sandstone Relief"
+  description: Harihara is a composite form that combines the Hindu deities Shiva and Vishnu into a single representation. This sandstone relief presents the divine figure surrounded by an elaborate arrangement of smaller carved figures and decorative details.
+  symbolism: []
+  historicalContext: The sculpture is described as dating to around 1000 CE. It is reported to have been found in India, possibly in the Khajuraho region, and is now located in the British Museum. Its exact findspot is not confirmed.
+  provenanceNote: Digital 3D representation displayed at a 40 cm AR viewing scale. The source description gives a possible Khajuraho origin, which is not confirmed.
+  narration: 'Welcome. This exhibit presents Harihara, a composite form that combines the Hindu deities Shiva and Vishnu into a single representation.
+
+    This sandstone relief shows the divine figure surrounded by an elaborate arrangement of smaller carved figures and decorative details.
+
+    The combined form expresses the relationship between the Shaivism and Vaishnavism traditions of Hindu religion.
+
+    The sculpture is described as dating to around 1000 CE.
+
+    This model is displayed at a viewing scale of 40 centimetres, which is not the original size of the sculpture.
+
+    Thank you for exploring this exhibit.'
+  narrationClip: {fileID: 0}
+  exhibitId: harihara
+  thumbnail: {fileID: 0}
+  artifactPrefab: {fileID: 1276562461878348965, guid: 424b8c6ed6c52ef44a84151ac9ecdf3b, type: 3}
+  displayHeightMeters: 0.4
+  period: c. 1000 CE
+  introduction: Harihara is a composite form that combines the Hindu deities Shiva and Vishnu into a single representation. This sandstone relief presents the divine figure surrounded by an elaborate arrangement of smaller carved figures and decorative details.
+  culturalSignificance: Harihara represents the complementary aspects of Shiva and Vishnu. The combined form is an expression of the relationship between Shaivism and Vaishnavism in Hindu religious traditions.
+  detailImage: {fileID: 0}

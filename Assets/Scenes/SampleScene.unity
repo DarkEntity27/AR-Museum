@@ -4273,6 +4273,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: feafa3ecefdfec74eb83dd191385fe45, type: 2}
   - {fileID: 11400000, guid: 68841831588da364888e7d7b221e8df3, type: 2}
   - {fileID: 11400000, guid: c1855cff018f7f449af9039952cedd0c, type: 2}
+  - {fileID: 11400000, guid: 14460aa590f08c540a2414e8040d535f, type: 2}
   placer: {fileID: 471508930}
   defaultExhibitIndex: 0
 --- !u!4 &819245175
@@ -9910,11 +9911,13 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 974c2820ca1b52841baeb89a0d2fb573, type: 3}
   - {fileID: 21300000, guid: f22f239342979fb47a74e30c659764c9, type: 3}
   - {fileID: 21300000, guid: 434bcdf8ffba0f6448267fff17b6f2d2, type: 3}
+  - {fileID: 21300000, guid: eda6d567b0a743d4aa64e116757078df, type: 3}
   traditions:
   - "Chola bronze tradition \xB7 South India"
   - Gandharan style
   - Mauryan style
   - "Indus Valley Civilisation \xB7 Bronze Figurine"
+  - "Sandstone relief \xB7 Shaivism and Vaishnavism"
   featuredIntroLength: 170
   cardDescriptionLength: 120
   detailsScreen: {fileID: 1617494016}
