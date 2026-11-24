@@ -2564,6 +2564,7 @@ MonoBehaviour:
   exhibits:
   - {fileID: 11400000, guid: 278618549fc81cf42a7a9737f4b0ddc6, type: 2}
   - {fileID: 11400000, guid: feafa3ecefdfec74eb83dd191385fe45, type: 2}
+  - {fileID: 11400000, guid: 68841831588da364888e7d7b221e8df3, type: 2}
   placer: {fileID: 471508930}
   defaultExhibitIndex: 0
 --- !u!4 &819245175

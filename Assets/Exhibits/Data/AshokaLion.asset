@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6c94dd4c19312240817d1d9adc28902, type: 3}
+  m_Name: AshokaLion
+  m_EditorClassIdentifier: Assembly-CSharp::ARMuseum.Exhibits.ExhibitData
+  title: ASHOKA LION CAPITAL
+  subtitle: Lion capital in the Mauryan style, c. 3rd century BCE
+  category: "Indian Heritage \u2022 Mauryan Sculpture"
+  description: A sandstone lion capital in the Mauryan style, associated with the reign of Emperor Ashoka, who ruled most of the Indian subcontinent from about 268 to 232 BCE. Mauryan lion capitals crowned monolithic pillars that Ashoka had erected across his empire, carrying his edicts on Buddhist ethics and governance.
+  symbolism:
+  - label: Lions
+    meaning: Lions are a traditional symbol of royal power and courage, and the Buddha is often called the lion of the Shakya clan.
+  - label: Wheel on the abacus
+    meaning: A wheel (dharmachakra) is commonly associated with the Buddha's teaching. Check the specific carving against the source before presenting this.
+  - label: Four directions
+    meaning: Four lions set back to back are often read as proclaiming the dharma in all directions. This interpretation is widely cited but not certain.
+  - label: Polished surface
+    meaning: The highly polished finish is typical of Mauryan stone sculpture and reflects the skill of its craftsmen.
+  historicalContext: The Mauryan Empire, founded in the late 4th century BCE, reached its greatest extent under Ashoka. After his conversion to Buddhism, he promoted the dharma through edicts carved in stone and pillars set up at important sites. Lion capitals of this kind are among the most celebrated surviving works of Mauryan sculpture, with the polished surface and strong, stylised forms typical of the period. The display height of 40 cm is a viewing scale for AR, not a claim about the original object's size.
+  provenanceNote: The exact findspot, museum attribution and acquisition details are not yet confirmed for this scan. The 3D model and textures come from the supplied source files.
+  narration: This is the Ashoka Lion Capital. Lion capitals like this one crowned pillars that Emperor Ashoka had raised across his empire in the third century BCE, carrying his edicts on Buddhist ethics and good governance. Look at the lions' powerful forms, and the polished stone that has survived for more than two thousand years.
+  narrationClip: {fileID: 0}
+  exhibitId: ashoka-lion-capital
+  thumbnail: {fileID: 0}
+  artifactPrefab: {fileID: 3145003022757412050, guid: f51c75864211cd74888e7096a38683f8, type: 3}
+  displayHeightMeters: 0.4
