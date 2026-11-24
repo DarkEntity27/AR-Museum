@@ -21,16 +21,16 @@ MonoBehaviour:
     The dynamic form combines rhythm, balance, and spiritual meaning. The surrounding ring of flames represents the cosmic cycle, while the dance symbolizes the movement and transformation of the universe.'
   symbolism:
   - label: The ring of flames
-    meaning: The cosmic cycle and the universe.
+    meaning: Often read as the cosmic cycle and the universe, within which the dance takes place.
   - label: The drum
-    meaning: The rhythm of creation.
+    meaning: Often associated with the rhythm of creation.
   - label: The flame
-    meaning: Destruction and transformation.
+    meaning: Often associated with destruction and transformation, which are part of the cycle of the universe.
   - label: The raised foot
-    meaning: Liberation.
+    meaning: Often read as a sign of liberation and grace.
   - label: The dance
-    meaning: The dynamic balance of the cosmos.
-  historicalContext: Bronze Nataraja sculptures are particularly associated with the Chola artistic tradition of South India. Chola bronzes are celebrated for their craftsmanship, expressive forms, and religious significance.
+    meaning: Often interpreted as the dynamic balance of the cosmos.
+  historicalContext: Bronze images of Nataraja are particularly associated with the Chola artistic tradition of South India. Chola bronzes are admired for their craftsmanship, their expressive forms and their religious significance.
   provenanceNote: This is a digital 3D model of a Nataraja bronze. The origin, date, and provenance of the physical object it reproduces are not documented in this exhibit.
   narration: 'Welcome to the Indian Heritage Museum. This exhibit presents Nataraja, the cosmic dancer form of Lord Shiva.
 
@@ -48,3 +48,7 @@ MonoBehaviour:
   thumbnail: {fileID: 0}
   artifactPrefab: {fileID: 2313958463192941193, guid: 578ae3b37d1b7d543925529fb9248d9a, type: 3}
   displayHeightMeters: 0.4
+  period: Chola bronze tradition, South India
+  introduction: Nataraja represents Shiva as the cosmic dancer. Through rhythmic movement, the figure expresses the cycles of creation, preservation and destruction.
+  culturalSignificance: 'Nataraja is closely associated with the Shaiva tradition and with the temple at Chidambaram in Tamil Nadu, a major centre of Shiva worship. Bronze images of the dancing Shiva were made for devotion in South Indian temples. The image brings together dance, rhythm and philosophy: Shiva''s dance is understood as the movement that sustains the universe.'
+  detailImage: {fileID: 21300000, guid: 6ab344c9fadcd4d49a6455e65cd931b3, type: 3}

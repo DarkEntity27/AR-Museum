@@ -18,14 +18,14 @@ MonoBehaviour:
   description: A Buddha image in the Gandharan style, from the ancient region of Gandhara in the north-west of the Indian subcontinent, now largely in Pakistan and Afghanistan. Gandharan sculptors combined Buddhist devotion with the naturalistic figure carving and drapery of Hellenistic art, which reached the region through trade and cultural contact after Alexander's campaigns.
   symbolism:
   - label: Urna
-    meaning: The mark between the brows, one of the 32 major marks of a Buddha in Buddhist tradition, associated with insight.
+    meaning: In Buddhist tradition, one of the 32 major marks of a Buddha, often associated with insight.
   - label: Ushnisha
-    meaning: The cranial protuberance, associated with wisdom and enlightenment.
+    meaning: A cranial protuberance on the crown, often associated with wisdom and enlightenment.
   - label: Hand gestures (mudra)
-    meaning: Positions of the hands convey teaching, reassurance or meditation. The specific mudra varies by figure and should be checked against the source.
+    meaning: Hand positions in Buddhist images are used to convey teaching, reassurance or meditation. The specific gesture shown in this model is not identified in this exhibit.
   - label: Drapery
-    meaning: The clinging, folded robe reflects the Hellenistic influence on Gandharan sculpture.
-  historicalContext: Gandhara was a major centre of Buddhism under the Kushan Empire, roughly the 1st to 3rd centuries CE, with monasteries, stupas and workshops producing Buddha and bodhisattva images in stone and stucco. The 3rd century CE falls within this flourishing period. Gandharan workshops were among the most influential early centres for depicting the Buddha in human form. This model is displayed at about 30 cm height for AR viewing; the display size is not a claim about the original object's size.
+    meaning: The clinging, folded robe is often linked to Hellenistic influence on Gandharan sculpture.
+  historicalContext: Gandhara was a major centre of Buddhism under the Kushan Empire, roughly the 1st to 3rd centuries CE, with monasteries, stupas and workshops producing Buddha and bodhisattva images in stone and stucco. The 3rd century CE falls within this flourishing period. Gandharan workshops are among the most influential early centres for depicting the Buddha in human form.
   provenanceNote: Museum attribution, findspot and acquisition details are not yet confirmed for this exhibit. The 3D model and textures come from the supplied source files.
   narration: This is the Gandhara Buddha. Gandharan sculptors, working in the north-west of the Indian subcontinent around the third century of the common era, combined Buddhist devotion with the naturalistic drapery and figure carving of Hellenistic art. Look at the folds of the robe, the hair and the features, and the marks associated with the Buddha, such as the urna between the brows and the ushnisha on the crown.
   narrationClip: {fileID: 0}
@@ -33,3 +33,7 @@ MonoBehaviour:
   thumbnail: {fileID: 0}
   artifactPrefab: {fileID: 192544251322971070, guid: fb45dc8fe0f847c40bb9f84c49753b45, type: 3}
   displayHeightMeters: 0.3
+  period: c. 3rd century CE, Gandharan style
+  introduction: A Buddha image in the Gandharan style, from the ancient region of Gandhara in the north-west of the Indian subcontinent, now largely in Pakistan and Afghanistan.
+  culturalSignificance: Gandharan sculptors combined Buddhist devotion with naturalistic figure carving and drapery influenced by Hellenistic art, which reached the region through trade and cultural contact after Alexander's campaigns. Gandharan images are widely regarded as among the early influential depictions of the Buddha in human form, and their styles spread along trade routes across Asia.
+  detailImage: {fileID: 21300000, guid: 499d7b2208fd17543b384db9f1d92dd4, type: 3}

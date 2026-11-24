@@ -187,7 +187,7 @@ namespace ARMuseum.Museum
         /// </summary>
         private static string FormatChipLabel(ExhibitData exhibit, int index)
         {
-            return (index + 1).ToString("00") + " · " + exhibit.DisplayName;
+            return (index + 1).ToString("00") + " · " + (string.IsNullOrEmpty(exhibit.selectorLabel) ? exhibit.DisplayName : exhibit.selectorLabel);
         }
 }
 }

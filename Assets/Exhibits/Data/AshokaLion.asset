@@ -18,18 +18,22 @@ MonoBehaviour:
   description: A sandstone lion capital in the Mauryan style, associated with the reign of Emperor Ashoka, who ruled most of the Indian subcontinent from about 268 to 232 BCE. Mauryan lion capitals crowned monolithic pillars that Ashoka had erected across his empire, carrying his edicts on Buddhist ethics and governance.
   symbolism:
   - label: Lions
-    meaning: Lions are a traditional symbol of royal power and courage, and the Buddha is often called the lion of the Shakya clan.
+    meaning: Lions are a traditional symbol of royal power and courage. In Buddhist texts the Buddha is sometimes called the lion of the Shakya clan.
   - label: Wheel on the abacus
-    meaning: A wheel (dharmachakra) is commonly associated with the Buddha's teaching. Check the specific carving against the source before presenting this.
+    meaning: A wheel (dharmachakra) is often associated with the Buddha's teaching. The interpretation of the carving on this model is not established in this exhibit.
   - label: Four directions
-    meaning: Four lions set back to back are often read as proclaiming the dharma in all directions. This interpretation is widely cited but not certain.
+    meaning: Four lions set back to back are often read as proclaiming the dharma in all directions. This reading is widely cited but not certain.
   - label: Polished surface
     meaning: The highly polished finish is typical of Mauryan stone sculpture and reflects the skill of its craftsmen.
-  historicalContext: The Mauryan Empire, founded in the late 4th century BCE, reached its greatest extent under Ashoka. After his conversion to Buddhism, he promoted the dharma through edicts carved in stone and pillars set up at important sites. Lion capitals of this kind are among the most celebrated surviving works of Mauryan sculpture, with the polished surface and strong, stylised forms typical of the period. The display height of 40 cm is a viewing scale for AR, not a claim about the original object's size.
-  provenanceNote: The exact findspot, museum attribution and acquisition details are not yet confirmed for this scan. The 3D model and textures come from the supplied source files.
+  historicalContext: The Mauryan Empire, founded in the late 4th century BCE, reached its greatest extent under Ashoka. After his conversion to Buddhism, he promoted the dharma through edicts carved in stone and set up on pillars at important sites. Lion capitals of this kind crowned such pillars and are among the celebrated surviving works of Mauryan sculpture, known for their polished surfaces and strong, stylised forms.
+  provenanceNote: This digital model is a reproduction. It is not identified as the Sarnath capital or any other specific original. The findspot, museum attribution and acquisition details are not confirmed for this exhibit. The 3D model and textures come from the supplied source files.
   narration: This is the Ashoka Lion Capital. Lion capitals like this one crowned pillars that Emperor Ashoka had raised across his empire in the third century BCE, carrying his edicts on Buddhist ethics and good governance. Look at the lions' powerful forms, and the polished stone that has survived for more than two thousand years.
   narrationClip: {fileID: 0}
   exhibitId: ashoka-lion-capital
   thumbnail: {fileID: 0}
   artifactPrefab: {fileID: 3145003022757412050, guid: f51c75864211cd74888e7096a38683f8, type: 3}
   displayHeightMeters: 0.4
+  period: c. 3rd century BCE, Mauryan style
+  introduction: A sandstone lion capital in the Mauryan style, of the kind associated with the reign of Emperor Ashoka, who ruled most of the Indian subcontinent from about 268 to 232 BCE.
+  culturalSignificance: Ashoka's edicts, carved on rock and pillars, are often cited as among the earliest surviving records of an Indian ruler addressing his subjects directly, promoting ethics, tolerance and good governance. Pillars topped with lion capitals were widely understood as visible expressions of imperial authority across the empire.
+  detailImage: {fileID: 21300000, guid: e28a92e27b5e57e48a47b20e74ec7b14, type: 3}

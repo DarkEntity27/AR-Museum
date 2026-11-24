@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using ARMuseum.Exhibits;
 using ARMuseum.Museum;
+using ARMuseum.Details;
 
 namespace ARMuseum.Welcome
 {
@@ -33,6 +34,9 @@ namespace ARMuseum.Welcome
 
         [SerializeField] private int featuredIntroLength = 150;
         [SerializeField] private int cardDescriptionLength = 110;
+
+        [Tooltip("Details screen opened by the VIEW DETAILS button.")]
+        [SerializeField] private ExhibitDetailsScreen detailsScreen;
 
         // Render backdrop colour of the thumbnails, so the featured image blends into its frame.
         private static readonly Color s_RenderBackdrop = new Color(0.11f, 0.105f, 0.1f, 1f);
@@ -130,9 +134,93 @@ namespace ARMuseum.Welcome
             view.Tradition = CreateText(frame.transform, "", 15, s_Bronze, true, true);
             view.Title = CreateText(frame.transform, "", 36, s_Gold, true, true);
             view.Intro = CreateText(frame.transform, "", 21, s_Ivory, false, true);
+            CreateDetailsButton(frame.transform);
             m_Featured = view;
 
             CreateText(cardContainer, "THE COLLECTION", 15, s_Gold, true, true).alignment = TextAnchor.MiddleLeft;
+        }
+
+                // ---------- Details navigation ----------
+
+        private void CreateDetailsButton(Transform parent)
+        {
+            GameObject go = NewObject("DetailsButton", parent, typeof(Image), typeof(Button), typeof(Outline), typeof(LayoutElement));
+
+            var background = go.GetComponent<Image>();
+            background.sprite = cardSprite;
+            background.type = cardSprite != null ? Image.Type.Sliced : Image.Type.Simple;
+            background.color = s_CardBackground;
+
+            var outline = go.GetComponent<Outline>();
+            outline.effectColor = new Color(s_Bronze.r, s_Bronze.g, s_Bronze.b, 0.6f);
+            outline.effectDistance = new Vector2(1f, -1f);
+
+            var layout = go.GetComponent<LayoutElement>();
+            layout.preferredHeight = 60f;
+            layout.minHeight = 60f;
+
+            var button = go.GetComponent<Button>();
+            button.targetGraphic = background;
+            button.onClick.AddListener(OnViewDetails);
+
+            Text label = CreateText(go.transform, "VIEW DETAILS", 19, s_Gold, true, false);
+            label.alignment = TextAnchor.MiddleCenter;
+            label.GetComponent<ContentSizeFitter>().enabled = false;
+            var rect = (RectTransform)label.transform;
+            rect.anchorMin = Vector2.zero;
+            rect.anchorMax = Vector2.one;
+            rect.offsetMin = Vector2.zero;
+            rect.offsetMax = Vector2.zero;
+        }
+
+        private void OnViewDetails()
+        {
+            if (detailsScreen == null || manager == null)
+                return;
+
+            int index = manager.SelectedIndex < 0 ? 0 : manager.SelectedIndex;
+            HideWelcome();
+            detailsScreen.Show(index);
+        }
+
+        /// <summary>Re-shows the welcome screen (used by Back on the details screen). Selection is unchanged.</summary>
+        public void ShowWelcome()
+        {
+            var canvas = GetComponent<Canvas>();
+            if (canvas != null)
+                canvas.enabled = true;
+
+            if (canvasGroup != null)
+            {
+                canvasGroup.alpha = 1f;
+                canvasGroup.interactable = !m_Entering;
+                canvasGroup.blocksRaycasts = true;
+            }
+        }
+
+        /// <summary>Hides the welcome screen while the details screen is open.</summary>
+        public void HideWelcome()
+        {
+            var canvas = GetComponent<Canvas>();
+            if (canvas != null)
+                canvas.enabled = false;
+
+            if (canvasGroup != null)
+            {
+                canvasGroup.alpha = 0f;
+                canvasGroup.interactable = false;
+                canvasGroup.blocksRaycasts = false;
+            }
+        }
+
+        /// <summary>
+        /// Entry from the details screen: shows this canvas again, then runs the existing
+        /// ENTER AR MUSEUM flow (ARExperienceGate.Enter and the fade-out).
+        /// </summary>
+        public void EnterARFromDetails()
+        {
+            ShowWelcome();
+            OnEnterPressed();
         }
 
         // ---------- Collection ----------

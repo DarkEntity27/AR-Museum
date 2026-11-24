@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6c94dd4c19312240817d1d9adc28902, type: 3}
+  m_Name: DancingGirl
+  m_EditorClassIdentifier: Assembly-CSharp::ARMuseum.Exhibits.ExhibitData
+  title: DANCING GIRL OF MOHENJO-DARO
+  selectorLabel: DANCING GIRL
+  subtitle: "Bronze Figurine \xB7 Indus Valley Civilisation"
+  category: "Indus Valley Civilisation \u2022 Bronze Figurine"
+  description: 'A celebrated bronze figurine from the Indus Valley Civilisation, depicting a young woman standing confidently with one hand resting on her hip and the other hanging by her side.
+
+
+    The figurine is associated with Mohenjo-daro, one of the major urban centres of the Indus Valley Civilisation, and is among the civilisation''s best-known artefacts.'
+  symbolism: []
+  historicalContext: The Dancing Girl is associated with the ancient city of Mohenjo-daro, one of the major urban centres of the Indus Valley Civilisation. The figurine was made using the lost-wax casting technique, demonstrating the metalworking skills of its makers.
+  provenanceNote: This is a digital 3D model of a bronze figurine associated with Mohenjo-daro. The model is displayed at a viewing scale of 30 cm, which is not the original artefact's actual height. Museum attribution, findspot and acquisition details are not documented in this exhibit.
+  narration: 'Welcome. This exhibit presents the Dancing Girl of Mohenjo-daro, a bronze figurine from the Indus Valley Civilisation.
+
+    The figurine shows a young woman standing confidently, with one hand resting on her hip and the other hanging by her side.
+
+    It is associated with Mohenjo-daro, one of the major urban centres of the Indus Valley Civilisation.
+
+    The figurine was made using the lost-wax casting technique, which shows the metalworking skills of its makers.
+
+    Its posture and ornaments have made it one of the civilisation''s best-known artefacts.
+
+    The model is displayed at a viewing scale of 30 centimetres, which is not the original height of the artefact.
+
+    Thank you for exploring this exhibit.'
+  narrationClip: {fileID: 0}
+  exhibitId: dancing-girl
+  thumbnail: {fileID: 0}
+  artifactPrefab: {fileID: 7051233718486963435, guid: 13c0d130db8e3aa4d8a80ab66831e11f, type: 3}
+  displayHeightMeters: 0.3
+  period: c. 2500 BCE
+  introduction: A celebrated bronze figurine from the Indus Valley Civilisation, depicting a young woman standing confidently with one hand resting on her hip and the other hanging by her side.
+  culturalSignificance: The figurine offers a glimpse into artistic expression, craftsmanship and everyday cultural life in the Indus Valley Civilisation. Its distinctive posture and ornaments have made it one of the civilisation's best-known artefacts.
+  detailImage: {fileID: 0}

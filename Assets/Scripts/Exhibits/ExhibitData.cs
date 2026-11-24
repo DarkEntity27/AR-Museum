@@ -14,6 +14,8 @@ namespace ARMuseum.Exhibits
     public class ExhibitData : ScriptableObject
     {
         public string title;
+        [Tooltip("Optional short label for the exhibit selector chip, e.g. 'DANCING GIRL'. Uses the title when empty.")]
+        public string selectorLabel;
         public string subtitle;
         public string category;
         [TextArea(3, 10)] public string description;
@@ -32,6 +34,15 @@ namespace ARMuseum.Exhibits
         public GameObject artifactPrefab;
         [Tooltip("Suggested real-world height in metres. 0 = leave the prefab's scale unchanged.")]
         [Min(0f)] public float displayHeightMeters;
+
+        [Tooltip("Historical period shown on the details screen, e.g. 'c. 3rd century CE'.")]
+        public string period;
+        [Tooltip("Short introduction (one or two sentences) shown on the details screen.")]
+        [TextArea(2, 4)] public string introduction;
+        [Tooltip("Cultural significance text shown on the details screen.")]
+        [TextArea(3, 10)] public string culturalSignificance;
+        [Tooltip("High-resolution render of the artifact for the details screen.")]
+        public Sprite detailImage;
 
         /// <summary>Name shown in the UI. Uses the title field.</summary>
         public string DisplayName => string.IsNullOrEmpty(title) ? name : title;
