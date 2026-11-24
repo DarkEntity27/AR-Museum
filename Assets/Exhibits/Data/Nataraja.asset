@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6c94dd4c19312240817d1d9adc28902, type: 3}
+  m_Name: Nataraja
+  m_EditorClassIdentifier: Assembly-CSharp::ARMuseum.Exhibits.ExhibitData
+  title: NATARAJA
+  subtitle: The Cosmic Dance of Shiva
+  category: "Indian Heritage \u2022 Sacred Bronze Sculpture"
+  description: 'Nataraja represents Shiva as the cosmic dancer, expressing the cycles of creation, preservation, and destruction through movement and symbolism.
+
+
+    The dynamic form combines rhythm, balance, and spiritual meaning. The surrounding ring of flames represents the cosmic cycle, while the dance symbolizes the movement and transformation of the universe.'
+  symbolism:
+  - label: The ring of flames
+    meaning: The cosmic cycle and the universe.
+  - label: The drum
+    meaning: The rhythm of creation.
+  - label: The flame
+    meaning: Destruction and transformation.
+  - label: The raised foot
+    meaning: Liberation.
+  - label: The dance
+    meaning: The dynamic balance of the cosmos.
+  historicalContext: Bronze Nataraja sculptures are particularly associated with the Chola artistic tradition of South India. Chola bronzes are celebrated for their craftsmanship, expressive forms, and religious significance.
+  provenanceNote: This is a digital 3D model of a Nataraja bronze. The origin, date, and provenance of the physical object it reproduces are not documented in this exhibit.
+  narration: 'Welcome to the Indian Heritage Museum. This exhibit presents Nataraja, the cosmic dancer form of Lord Shiva.
+
+    The Nataraja sculpture represents the cosmic cycles of creation, preservation, and destruction, expressed through dance.
+
+    The ring of flames represents the universe and its continuous cycle. The drum symbolizes the rhythm of creation, while the flame represents destruction and transformation.
+
+    The raised foot symbolizes liberation, and the dance expresses the dynamic balance of the cosmos.
+
+    Bronze Nataraja sculptures are particularly associated with the Chola artistic tradition of South India, celebrated for their craftsmanship and expressive forms.
+
+    Thank you for exploring this exhibit.'
+  narrationClip: {fileID: 0}
+  exhibitId: nataraja
+  thumbnail: {fileID: 0}
+  artifactPrefab: {fileID: 2313958463192941193, guid: 578ae3b37d1b7d543925529fb9248d9a, type: 3}
+  displayHeightMeters: 0.4

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6c94dd4c19312240817d1d9adc28902, type: 3}
+  m_Name: PlaceholderExhibit
+  m_EditorClassIdentifier: Assembly-CSharp::ARMuseum.Exhibits.ExhibitData
+  title: PLACEHOLDER
+  subtitle: Test exhibit
+  category: Development
+  description: A simple test artifact used to check that switching exhibits works. Not part of the museum.
+  symbolism: []
+  historicalContext: 
+  provenanceNote: Test content only.
+  narration: This is a placeholder exhibit used to test switching between exhibits.
+  narrationClip: {fileID: 0}
+  exhibitId: placeholder
+  thumbnail: {fileID: 0}
+  artifactPrefab: {fileID: 3959807750694074594, guid: 200201acab921ce4caf93bc07902b556, type: 3}
+  displayHeightMeters: 0
